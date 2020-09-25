@@ -7,7 +7,6 @@ class Dora_client():
         self.key = 'Your partner key' # Партнёрский ключ
         self.service = 'http://otherwave.ru/dora' # Куда уходит запрос
         
-
     def answer(self, quest):
     # Формирует get запрос к базе данных
     # Возвращает json dict
